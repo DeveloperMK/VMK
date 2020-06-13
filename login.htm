@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Login & Register</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="background_image" style="background-color:#00ff99;">
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<ul>
+<form class="login" style="text-align:center;" action="index.htm" method="post">
+<h1>Login</h1>
+<label>Name:</label>
+<input type="text" name="userName" required />
+<br>
+<label>Phone:</label>
+<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+<br>
+<label>Email:</label>
+<input type="email" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+<br>
+<br>
+<button type="submit">Send</button> 
+<br><br><br><br><br><br><br><br> 
+</form>
+</ul>
+
+
+<!-- <div class="vl"></div> -->
+
+<ul>
+<form class="register" style="text-align:center;" action="index.htm" method="post">
+<h1>Register</h1>
+<label>Name:</label>
+<input id="Name" type="text" name="userName" required />
+<br>
+<label>Phone:</label>
+<input id="Phone" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+<br>
+<label>Email:</label>
+<input id="Email" type="email" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+<br>
+<br>
+<button type="submit">Send</button> 
+</form>
+</ul>
+
+<script src="main2.js"></script>
+
+</body>
+</html>

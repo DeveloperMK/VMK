@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 600px;
+  height: 40px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  background-color: white;
+}
+
+@keyframes example {
+  0%   {background-color:#ffffff; left:0px; top:0px;}
+  15%  {background-color:#ccfff5; left:400px; top:0px;}
+  30%  {background-color:#80ffe5; left:400px; top:322px;}
+  45%  {background-color: #00e6b8; left:-400px; top:322px;}
+  100% {background-color:#00ff99; left:-400x; top:0px;}
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<title>Working Days</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+<center>
+<div>
+<h1 style="text-align:center;"><u>Weekly Office Hours (Upcoming Week)</u></h1>
+</div>
+</center>
+
+<table class="">
+    <tr>
+	<th>Date</th>
+      <th>Days</th>
+      <th>Hours (GMT+3)</th>
+    </tr>
+    <tr>
+      <td>5/1/2020</td>
+      <td>Sunday</td>
+      <td>6am to 9pm.</td>
+    </tr>
+    <tr>
+      <td>5/2/2020</td>
+      <td>Monday</td>
+      <td>6am to 9pm.</td>
+    </tr>
+	<tr>
+      <td>5/3/2020</td>
+      <td>Tuesday</td>
+      <td>6am to 9pm.</td>
+    </tr>
+		<tr>
+      <td>5/4/2020</td>
+      <td>Wednesday</td>
+      <td>6am to 9pm.</td>
+    </tr>
+		<tr>
+      <td>5/5/2020</td>
+      <td>Thursday</td>
+      <td>6am to 9pm.</td>
+    </tr>
+		<tr>
+      <td>5/6/2020</td>
+      <td>Friday</td>
+      <td>6am to 3pm.</td>
+    </tr>
+		<tr>
+      <td>5/7/2020</td>
+      <td>Saturday</td>
+      <td>9pm to 10pm.</td>
+    </tr>
+  </table>
+
+</body>
+</html>

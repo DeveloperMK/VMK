@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VMK</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body style="background-color:#90cde3"> <!--style="background-color:#00ff99;"-->
+
+
+<img src="file:///C:/Users/User/Downloads/vmk%20(1).png" alt="VMK's Logo" class="over-img" />
+
+
+<div id="demo">
+<center>
+<h3 id="code"></h3>
+<h3 id="insert"></h3> 
+</center>
+
+<h2><u>About Us</u></h2>
+
+<p>VMK is a vegan website which provides a forum, vegan recipies, and hopefully will have more special features coming! We are always looking forward to providing you with the best experience we can, so please contact us if you have any recommendations.</p>
+<!-- 
+<img id="logo" align="right" src="VMK_Logo.png" alt="VMK's Logo" width="500px" height="350px" style="padding:5px; background-color:#66ffff;">
+-->
+<p>I am really thankful for your support, and am trying to make everyone positive! Spread happiness & joy! Let's all help the animals, help ourselves, and save the earth! </p>
+
+<h4>Coming soon:<h4>
+
+<li>
+<a href="update1.htm" id="hide"> Benefits of Becoming Vegan. </a>
+</li>
+<li>
+<a href="file:///C:/%D7%92'%D7%95%20%D7%A1%D7%9C%D7%95%D7%90%20-25.11.2018/DOCS/Michael/canvas.htm" id="hide2"> Drawing Canvas For Children. </a>
+</li>
+<li>
+<a> 30 Day Healthy Vegan Diet.
+</li>
+<li>
+How to be Happier, Healthier, Cleaner, and More Tutorials.
+</li>
+<li>
+Meditation Tutorials.
+</li>
+<li>
+30 Day Yoga Challenge.
+</li>
+<li>
+Body Workouts with No Equipment.
+</li>
+<li>
+Sleeping & Hydration Tracker. 
+</li>
+<li>
+Donations for Animal's shelter & Planting Trees.
+</li>
+</div>
+<center><h4><u>Forgot the code? Want to contact me? No problem, just press <a id="" href="about.htm">here</a>, where you can also learn some things about me.</u></h4></center>
+
+
+<script>
+alert('Hello! Before you enter this site, we would like to make sure you know this site is under maintenance. We are sorry if you experience any issues.');
+let code = prompt("Please enter the code:");
+console.log(code);
+let name = prompt("Please enter your name:");
+console.log(name);
+if(code=="AmitDvir121"){
+document.getElementById("code").innerHTML = "Correct Code.";
+}
+if((name==null || name.length<=0) || (name.indexOf(' ')>=0)){
+	document.getElementById("insert").innerHTML = "Please enter your name.";
+    document.getElementById("demo").style.color = "#00ff99";
+// document.getElementById("demo").style.display= "none";
+document.getElementById("hide").style.display="none";
+document.getElementById("hide2").style.display="none";
+}
+else{
+	document.getElementById("insert").innerHTML = "Welcome, " + name + "!";
+}
+if(code!=="AmitDvir121"){
+document.getElementById("code").innerHTML = "Incorrect Code.";
+document.getElementById("demo").style.color = "#00ff99";
+// document.getElementById("demo").style.display= "none";
+document.getElementById("hide").style.display="none";
+document.getElementById("hide2").style.display="none";
+}
+if(code!=="AmitDvir121" && (!(name==null || name.length<=0 || name.indexOf(' ')>=0))){
+document.getElementById("code").innerHTML = "Incorrect Code.";
+document.getElementById("insert").innerHTML = "Please try again, " + name + ".";
+document.getElementById("demo").style.color = "#00ff99";
+// document.getElementById("demo").style.display= "none";
+document.getElementById("hide").style.display="none";
+document.getElementById("hide2").style.display="none";
+}
+</script>
+
+
+</body>
+</html>

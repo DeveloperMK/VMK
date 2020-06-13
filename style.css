@@ -1,0 +1,49 @@
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.card{
+	border: 1px solid #474e5d;
+}
+
+.container{
+	text-align:center;
+}
+
+.button{
+	color: white;
+	background-color: #000;
+	text-align: center;
+}
+
+.vl {
+  border-middle: 2px solid black;
+  height: 50px;
+  padding: 150px;
+}
+
+.login{
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 25%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 200px;
+}
+
+.register{
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 75%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 200px;
+}
+
+.background_image{
+  background-image: url("https://www.sciencemag.org/sites/default/files/styles/article_main_image_-_1280w__no_aspect_/public/cc_iStock-478639870_16x9.jpg?itok=y1oFCoHB");
+  background-repeat: no-repeat, repeat;
+}
